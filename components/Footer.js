@@ -1,10 +1,9 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 const navigation = {
   main: [
     { name: "Regulamin TCM Kongres", href: "/regulations" },
     { name: "Polityka prywatnosci", href: "/privacy" },
-    { name: "Pliki do pobrania", href: "/download" },
   ],
   social: [
     {
@@ -76,7 +75,20 @@ export default function Footer() {
               </Link>
             </div>
           ))}
+          <div className="pb-6 text-center">
+            <Link href="/download" legacyBehavior>
+              <a
+                className="text-2xl leading-6 text-gray-600 hover:text-gray-900"
+                target="_blank"
+                rel="noreferrer"
+                id="link"
+              >
+                Pliki do pobrania
+              </a>
+            </Link>
+          </div>
         </nav>
+
         <div className="mt-10 flex justify-center space-x-10">
           {navigation.social.map((item) => (
             <a
