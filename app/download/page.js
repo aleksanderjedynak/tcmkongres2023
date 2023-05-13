@@ -5,12 +5,15 @@ import Script from "next/script";
 export default function Page() {
   return (
     <>
-      <Script src="https://app.easycart.pl/login.js?type=toggle&id=prod_NqQ9YgAiiR9MUl"></Script>
-      <Script>
+      <Script
+        id="script"
+        src="https://app.easycart.pl/login.js?type=toggle&id=prod_NqQ9YgAiiR9MUl"
+      ></Script>
+      <Script id="script-2">
         {`!window._EC_HASH_14b3df7e0ad2b616be9d810f9b96ede5 &&
           (location.href = "https://app.easycart.pl/r/prod_NqQ9YgAiiR9MUl");`}
       </Script>
-      <Script>
+      <Script id="script-3">
         {`<noscript>
           <meta http-equiv="refresh" content="0;url=https://app.easycart.pl/r/prod_NqQ9YgAiiR9MUl">
       </noscript>`}
@@ -43,7 +46,7 @@ export default function Page() {
               naszymi wydarzeniami.
             </p>
           </div>
-          <div data-paid className="mt-6 border-t border-gray-100">
+          <div data-paid="true" className="mt-6 border-t border-gray-100">
             <dl className="divide-y divide-gray-100">
               <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
                 <dt className="text-sm font-medium leading-6 text-gray-900">
