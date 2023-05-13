@@ -1,12 +1,12 @@
-import hotel1 from "../app/hotel1.jpg"
-import hotel3 from "../app/hotel3.jpg"
-import hotel2 from "../app/hotel2.jpg"
-import hotel4 from "../app/hotel4.jpg"
-import Image from 'next/image'
+import hotel1 from "../app/hotel1.jpg";
+import hotel3 from "../app/hotel3.jpg";
+import hotel2 from "../app/hotel2.jpg";
+import hotel4 from "../app/hotel4.jpg";
+import Image from "next/image";
 
 export default function Hotel() {
   return (
-    <div className="overflow-hidden bg-white">
+    <div className="overflow-hidden bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
           <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
@@ -28,7 +28,7 @@ export default function Hotel() {
                 href="http://galaxyhotel.pl/en/h24_code/TCMKongres/p2019-10-10/w2019-10-13/"
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
-                Booking <span aria-hidden="true">&rarr;</span>
+                Rezerwuj hotel <span aria-hidden="true">&rarr;</span>
               </a>
             </div>
           </div>
