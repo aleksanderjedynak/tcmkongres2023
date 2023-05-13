@@ -1,10 +1,9 @@
 import { PaperClipIcon } from "@heroicons/react/20/solid";
-import Link from 'next/link'
-
+import Link from "next/link";
 
 export default function Page() {
   return (
-    <div className="bg-white px-6 py-32 lg:px-8 h-screen">
+    <div className="bg-white px-6 py-32 lg:px-8">
       <div className="mx-auto  max-w-3xl min-h-full text-base leading-7 text-gray-700">
         <div className="px-4 sm:px-0">
           <p className="text-base font-semibold leading-7 mb-4 text-indigo-600">

@@ -1,9 +1,9 @@
 import { CheckCircleIcon } from "@heroicons/react/20/solid";
-import Link from 'next/link'
+import Link from "next/link";
 
 export default function Page() {
   return (
-    <div className="bg-white px-6 py-32 lg:px-8 h-screen">
+    <div className="bg-white px-6 py-32 lg:px-8">
       <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
         <p className="text-base font-semibold leading-7 mb-4 text-indigo-600">
           <Link
@@ -112,10 +112,10 @@ export default function Page() {
                 <strong className="font-semibold text-gray-900">6.</strong>{" "}
                 Administrator dokłada szczególnej staranności w celu ochrony
                 interesów osób, których dane dotyczą, a w szczególności
-                zapewnia, że zbierane przez niego dane są: a. przetwarzane
-                zgodnie z prawem, b. zbierane dla oznaczonych, zgodnych z prawem
+                zapewnia, że zbierane przez niego dane są: a. przetwarzane
+                zgodnie z prawem, b. zbierane dla oznaczonych, zgodnych z prawem
                 celów i niepoddawane dalszemu przetwarzaniu niezgodnemu z tymi
-                celami, c. merytorycznie poprawne i adekwatne w stosunku do
+                celami, c. merytorycznie poprawne i adekwatne w stosunku do
                 celów, w jakich są przetwarzane oraz przechowywane w postaci
                 umożliwiającej identyfikację osób, których dotyczą, nie dłużej
                 niż jest to niezbędne do osiągnięcia celu przetwarzania.
@@ -140,21 +140,21 @@ export default function Page() {
                 <strong className="font-semibold text-gray-900">1.</strong>{" "}
                 Dane, które podaje lub pozostawia Użytkownik podczas zapisywania
                 się na świadczone przez Administratora usługi i produkty oraz w
-                trakcie korzystania z usług i produktów, wykorzystywane są
-                do: a. udostępnienia możliwości korzystania z usług i produktów
-                Administratora; b. rejestracji udziału w Kongresie TMC , dalej
+                trakcie korzystania z usług i produktów, wykorzystywane są do:
+                a. udostępnienia możliwości korzystania z usług i produktów
+                Administratora; b. rejestracji udziału w Kongresie TMC , dalej
                 „Kongres”, założenia indywidualnego konta w systemie
                 rejestracji, zorganizowania Kongresu i jego przeprowadzenia,
-                komunikacji i przekazu informacji dot. udziału w Kongresie; c.
+                komunikacji i przekazu informacji dot. udziału w Kongresie; c.
                 wykonania obowiązków ciążących na Administratorze w związku z
                 organizacją Kongresu, wynikających z obowiązujących przepisów
-                prawa; d. celów informacyjnych oraz innych czynności związanych
+                prawa; d. celów informacyjnych oraz innych czynności związanych
                 z aktywnością Administratora na stronie internetowej
-                www.tcm-kongres.pl; e. realizacji umów i procesów handlowych; f.
+                www.tcm-kongres.pl; e. realizacji umów i procesów handlowych; f.
                 celów marketingowych (przesyłanie informacji handlowych drogą
-                elektroniczną oraz działania telemarketingowe); g. oceny
+                elektroniczną oraz działania telemarketingowe); g. oceny
                 organizacji Kongresu oraz badania satysfakcji z uczestnictwa w
-                Kongresie; h. kontaktu, wymiany informacji i danych.
+                Kongresie; h. kontaktu, wymiany informacji i danych.
               </span>
             </li>
             <li className="flex gap-x-3">
@@ -164,10 +164,10 @@ export default function Page() {
               />
               <span>
                 <strong className="font-semibold text-gray-900">2.</strong>{" "}
-                Administrator przetwarza następujące dane osobowe
-                Użytkowników: a. imię, nazwisko, b. adres e-mail, c. nazwa firmy
-                / instytucji / organizacji / uczelni, d. numer telefonu, e.
-                miasto, kod pocztowy, województwo, ulica, kraj, f. IP.
+                Administrator przetwarza następujące dane osobowe Użytkowników:
+                a. imię, nazwisko, b. adres e-mail, c. nazwa firmy / instytucji
+                / organizacji / uczelni, d. numer telefonu, e. miasto, kod
+                pocztowy, województwo, ulica, kraj,f. IP.
               </span>
             </li>
             <li className="flex gap-x-3">
@@ -321,7 +321,7 @@ export default function Page() {
                 aria-hidden="true"
               />
               <span>
-                <strong className="font-semibold text-gray-900">III.</strong>{" "}
+                <strong className="font-semibold text-gray-900">IV.</strong>{" "}
                 PRAWO KONTROLI, DOSTĘPU DO TREŚCI SWOICH DANYCH ORAZ ICH
                 POPRAWIANIA
               </span>

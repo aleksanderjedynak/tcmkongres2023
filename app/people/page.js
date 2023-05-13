@@ -2,16 +2,16 @@ import Link from "next/link";
 import Image from "next/image";
 import zhou_43_640_480 from "app/speakers/zhou_43_640_480.jpg";
 
-const stats = [
-  { label: "Founded", value: "2021" },
-  { label: "Employees", value: "37" },
-  { label: "Countries", value: "12" },
-  { label: "Raised", value: "$25M" },
-];
+// const stats = [
+//   { label: "Founded", value: "2021" },
+//   { label: "Employees", value: "37" },
+//   { label: "Countries", value: "12" },
+//   { label: "Raised", value: "$25M" },
+// ];
 
 export default function Page() {
   return (
-    <div className="bg-white py-24 sm:py-32 h-screen">
+    <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-4">
