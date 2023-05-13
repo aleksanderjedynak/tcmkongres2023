@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import { useState } from "react";
 import { CheckIcon } from "@heroicons/react/20/solid";
 
@@ -8,15 +8,15 @@ const frequencies = [
 ];
 const tiers = [
   {
-    name: "Bilet 1 dniowy",
+    name: "Bankiet",
     id: "1",
-    href: "https://sandbox.easycart.pl/checkout/88568273/bilet-tcm-kongres-krakow",
-    price: { monthly: "1 500 PLN" },
-    description: "Bilet wstepu na pierwszy dzien wydarzenia",
+    href: "https://sandbox.easycart.pl/checkout/88568273/bilet-tcm-kongres-krakow?plan=price_1N7MdWKiB9TlQ7ZZOad6aGN4",
+    price: { monthly: "220 PLN" },
+    description: "Bilet wstepu na bankiet.",
     features: [
-      "Dostęp do wszystkich wykładów w wybranym dniu",
-      "Dostęp do warsztatów i paneli dyskusyjnych w wybranym dniu",
-      "Możliwość uczestnictwa w sesjach Q&A",
+      // "Dostęp do wszystkich wykładów w wybranym dniu",
+      // "Dostęp do warsztatów i paneli dyskusyjnych w wybranym dniu",
+      // "Możliwość uczestnictwa w sesjach Q&A",
     ],
     mostPopular: false,
   },
@@ -24,27 +24,27 @@ const tiers = [
     name: "Bilet 3 dniowy",
     id: "2",
     href: "https://sandbox.easycart.pl/checkout/88568273/bilet-tcm-kongres-krakow",
-    price: { monthly: "2 700 PLN" },
-    description: "Bilet wstepu na cale wydarzeniae",
+    price: { monthly: "1 499 PLN" },
+    description: "Bilet wstępu na wszystkie wykłady.",
     features: [
-      "Dostęp do wszystkich wykładów przez 3 dni",
-      "Dostęp do warsztatów i paneli dyskusyjnych przez 3 dni",
-      "Możliwość uczestnictwa w sesjach Q&A",
-      "10% zniżki",
+      // "Dostęp do wszystkich wykładów przez 3 dni",
+      // "Dostęp do warsztatów i paneli dyskusyjnych przez 3 dni",
+      // "Możliwość uczestnictwa w sesjach Q&A",
+      // "10% zniżki",
     ],
     mostPopular: true,
   },
   {
     name: "Bilet 3 dniowy + bankiet",
     id: "3",
-    href: "https://sandbox.easycart.pl/checkout/88568273/bilet-tcm-kongres-krakow",
-    price: { monthly: "3 600 PLN" },
-    description: "Bilet wstepu na cale wydarzeniae oraz bankiet",
+    href: "https://sandbox.easycart.pl/checkout/88568273/bilet-tcm-kongres-krakow?plan=price_1N7MdWKiB9TlQ7ZZszVQK9qp",
+    price: { monthly: "1 719 PLN" },
+    description: "Bilet wstepu na cale wydarzeniae oraz bankiet.",
     features: [
-      "Dostęp do wszystkich wykładów przez 3 dni",
-      "Dostęp do warsztatów i paneli dyskusyjnych przez 3 dni",
-      "Możliwość uczestnictwa w sesjach Q&A",
-      "Zaproszenie na ekskluzywne spotkanie z ekspertami",
+      // "Dostęp do wszystkich wykładów przez 3 dni",
+      // "Dostęp do warsztatów i paneli dyskusyjnych przez 3 dni",
+      // "Możliwość uczestnictwa w sesjach Q&A",
+      // "Zaproszenie na ekskluzywne spotkanie z ekspertami",
     ],
     mostPopular: false,
   },
@@ -77,7 +77,8 @@ export default function Pricing() {
           </h2>
         </div>
         <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600">
-          Tutaj jakis opis, co tutaj chcemy zapisać?
+          Mamy dla was nastepujace bilety. Wybierzcie ten, ktory najbardziej wam
+          pasuje.
         </p>
         <div className="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           {tiers.map((tier) => (
