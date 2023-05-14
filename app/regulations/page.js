@@ -73,8 +73,8 @@ export default function Page() {
               />
               <span>
                 <strong className="font-semibold text-gray-900">5.</strong>{" "}
-                Uczestnikiem Spotkania może być każdy, kto wypełnił formularz
-                zgłoszeniowy i uiścił opłatę za uczestnictwo w Kongresie.
+                Uczestnikiem Spotkania może być każdy, kto kupi bilet poprzez
+                stronę www.tcmkongres.pl.
               </span>
             </li>
             <li className="flex gap-x-3">
@@ -84,8 +84,8 @@ export default function Page() {
               />
               <span>
                 <strong className="font-semibold text-gray-900">6.</strong>{" "}
-                Udział w Kongresie gwarantuje kupno biletu na Kongres poprzez
-                stronę www.tcmkongres.pl.
+                Istnieje mozliwość zakupu biletu na mijescu w kasie Kongresu w
+                dniach wydarzenia 13-15 października 2023r.
               </span>
             </li>
             <li className="flex gap-x-3">
@@ -123,7 +123,8 @@ export default function Page() {
               />
               <span>
                 <strong className="font-semibold text-gray-900">9.</strong>{" "}
-                Oficjalne zakończenie rejestracji następuje dnia 12.10.2023 r.
+                Oficjalne zakończenie sprzedaży biletów następuje dnia
+                12.10.2023 r.
               </span>
             </li>
             <li className="flex gap-x-3">
